@@ -21,7 +21,7 @@ isAuthenicated();
 
 <body class="bg-light">
   <div class="container mt-5">
-    <div><a class="btn btn-sm btn-secondary" href="../book-tickets/fewnj37" style="margin-right: 20px;">Book
+    <div><a class="btn btn-sm btn-secondary" href="../categories/fewnj37" style="margin-right: 20px;">Book
         Tickets</a><button class="btn btn-sm btn-danger" onclick="">Logout</button></div>
     <form action="" method="POST" id="logout-user-form">
       <input type="hidden" name="logout" />
