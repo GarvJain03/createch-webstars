@@ -1,0 +1,288 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChorsTech | Homepage</title>
+    <link rel="stylesheet" href="assets/css/tailwind.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Navbar goes here -->
+    <nav class="navbar bg-white shadow-lg">
+      <div class="max-w-full mx-auto px-4">
+        <div class="flex justify-between">
+          <div class="flex space-x-7">
+            <div>
+              <!-- Website Logo -->
+              <a href="./" class="flex items-center py-4 px-2">
+                <span class="font-semibold text-gray-500 text-lg logo">CORSTECH.</span>
+              </a>
+            </div>
+            <!-- Primary Navbar items -->
+            <div class="hidden md:flex items-center space-x-1">
+              <a href="#home" class="py-4 px-2 text-gray-500 nav-link hover:border-b-4 font-semibold">Home</a>
+              <a href="#services"
+                class="py-4 px-2 text-gray-500 font-semibold nav-link transition duration-300">Services</a>
+              <a href="#about"
+                class="py-4 px-2 text-gray-500 font-semibold nav-link transition duration-300">About</a>
+              <a href="contact.php"
+                class="py-4 px-2 text-gray-500 font-semibold nav-link transition duration-300">Contact
+                Us</a>
+            </div>
+          </div>
+          <!-- Secondary Navbar items -->
+          <div class="hidden md:flex items-center space-x-3">
+            <a href="dashboard/login.php"
+              class="py-2 px-2 font-medium text-gray-500 rounded login-signup-nav-btn transition duration-300">Log
+              In</a>
+            <a href="dashboard/login.php"
+              class="py-2 px-2 font-medium text-gray-500 rounded login-signup-nav-btn transition duration-300">Sign
+              Up</a>
+          </div>
+          <!-- Mobile menu button -->
+          <div class="md:hidden flex items-center">
+            <button class="outline-none mobile-menu-button">
+              <i class="fas fa-bars w-6 h-6 hover:text-green-500"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- mobile menu -->
+      <div class="hidden mobile-menu">
+        <ul>
+          <li class="active">
+            <a href="index.html" class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold">Home</a>
+          </li>
+          <li>
+            <a href="#services" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Services</a>
+          </li>
+          <li>
+            <a href="#about" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">About</a>
+          </li>
+          <li>
+            <a href="#contact" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <!--Hero-->
+    <section class="body" id="home">
+    <center>
+      <div class="container mt-16">
+        <div class="row align-items-center justify-center">
+          <div class="col-md-6" data-aos="slide-right">
+            <h5 class="uppercase text-left">Witty Tagline</h5>
+            <h1 class="font-bold text-6xl my-4 text-left">My Super App</h1>
+            <p class="leading-normal text-justify mt-2 mb-4 text-left" style="font-size: 18px;">
+              Enter your super app's description here... The key is to find the right length. Don't want it to be too
+              long, but then don't want it to be too short so that it looks weird between the title and button below.
+            </p>
+            <div class="inline-block btn-row">
+              <a href="dashboard/login.php">
+                <span>Login</span>
+                <span>Login</span>
+              </a>
+              <a href="dashboard/login.php">
+                <span>Signup</span>
+                <span>Signup</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-5" data-aos="slide-left">
+            <img src="assets/images/header.png" alt="hero" width="100%" />
+          </div>
+        </div>
+      </div>
+      </center><br><br>
+
+
+
+      <!--Services-->
+      <section class="services" id="services">
+        <div class="flex items-center justify-center">
+          <h1 class="text-center mx-auto text-7xl font-bold p-2 services-title">
+            Services
+          </h1>
+        </div>
+
+        <div class="container mx-auto py-12">
+          <div class="flex flex-wrap -mx-4 justify-around">
+
+            <!--Star gazing-->
+            <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
+              <a href="" class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
+                <div class="relative pb-48 overflow-hidden">
+                  <img class="absolute inset-0 h-full w-full object-cover"
+                    src="https://images.unsplash.com/photo-1475855581690-80accde3ae2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+                    alt="">
+                </div>
+                <div class="p-4">
+                  <span
+                    class="inline-block px-2 py-1 leading-none bg-orange-200 text-orange-800 rounded-full font-semibold uppercase tracking-wide text-xs">Highlight</span>
+                  <h2 class="mt-2 mb-2  font-bold">Purus Ullamcorper Inceptos Nibh</h2>
+                  <p class="text-sm">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper
+                    nulla non metus auctor fringilla.</p>
+                  <div class="mt-3 flex items-center">
+                    <span class="text-sm font-semibold">ab</span>&nbsp;<span
+                      class="font-bold text-xl">45,00</span>&nbsp;<span class="text-sm font-semibold">€</span>
+                  </div>
+                </div>
+                <div class="p-4 border-t border-b text-xs text-gray-700">
+                  <span class="flex items-center mb-1">
+                    <i class="far fa-clock fa-fw mr-2 text-gray-900"></i> 3 Tage
+                  </span>
+                  <span class="flex items-center">
+                    <i class="far fa-address-card fa-fw text-gray-900 mr-2"></i> Ermäßigung mit Karte
+                  </span>
+                </div>
+                <div class="p-4 flex items-center text-sm text-gray-600"><span class="ml-2">BUY NOW</span></div>
+              </a>
+            </div>
+
+
+            <!--Around the world-->
+            <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
+              <a href="" class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
+                <div class="relative pb-48 overflow-hidden">
+                  <img class="absolute inset-0 h-full w-full object-cover"
+                    src="https://images.unsplash.com/photo-1475855581690-80accde3ae2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+                    alt="">
+                </div>
+                <div class="p-4">
+                  <span
+                    class="inline-block px-2 py-1 leading-none bg-orange-200 text-orange-800 rounded-full font-semibold uppercase tracking-wide text-xs">Highlight</span>
+                  <h2 class="mt-2 mb-2  font-bold">Purus Ullamcorper Inceptos Nibh</h2>
+                  <p class="text-sm">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper
+                    nulla non metus auctor fringilla.</p>
+                  <div class="mt-3 flex items-center">
+                    <span class="text-sm font-semibold">ab</span>&nbsp;<span
+                      class="font-bold text-xl">45,00</span>&nbsp;<span class="text-sm font-semibold">€</span>
+                  </div>
+                </div>
+                <div class="p-4 border-t border-b text-xs text-gray-700">
+                  <span class="flex items-center mb-1">
+                    <i class="far fa-clock fa-fw mr-2 text-gray-900"></i> 3 Tage
+                  </span>
+                  <span class="flex items-center">
+                    <i class="far fa-address-card fa-fw text-gray-900 mr-2"></i> Ermäßigung mit Karte
+                  </span>
+                </div>
+                <div class="p-4 flex items-center text-sm text-gray-600"><span class="ml-2">BUY NOW</span></div>
+              </a>
+            </div>
+
+            <!--Space tour-->
+            <div class="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
+              <a href="" class="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
+                <div class="relative pb-48 overflow-hidden">
+                  <img class="absolute inset-0 h-full w-full object-cover"
+                    src="https://images.unsplash.com/photo-1475855581690-80accde3ae2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+                    alt="">
+                </div>
+                <div class="p-4">
+                  <span
+                    class="inline-block px-2 py-1 leading-none bg-orange-200 text-orange-800 rounded-full font-semibold uppercase tracking-wide text-xs">Highlight</span>
+                  <h2 class="mt-2 mb-2  font-bold">Purus Ullamcorper Inceptos Nibh</h2>
+                  <p class="text-sm">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper
+                    nulla non metus auctor fringilla.</p>
+                  <div class="mt-3 flex items-center">
+                    <span class="text-sm font-semibold">ab</span>&nbsp;<span
+                      class="font-bold text-xl">45,00</span>&nbsp;<span class="text-sm font-semibold">€</span>
+                  </div>
+                </div>
+                <div class="p-4 border-t border-b text-xs text-gray-700">
+                  <span class="flex items-center mb-1">
+                    <i class="far fa-clock fa-fw mr-2 text-gray-900"></i> 3 Tage
+                  </span>
+                  <span class="flex items-center">
+                    <i class="far fa-address-card fa-fw text-gray-900 mr-2"></i> Ermäßigung mit Karte
+                  </span>
+                </div>
+                <div class="p-4 flex items-center text-sm text-gray-600"><span class="ml-2">BUY NOW</span></div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!--App Section-->
+      <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div
+            class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Knausgaard typewriter readymade
+              marfa</h1>
+            <p class="mb-8 leading-relaxed">Chillwave portland ugh, knausgaard fam polaroid iPhone. Man braid swag
+              typewriter affogato, hella selvage wolf narwhal dreamcatcher.</p>
+            <div class="flex w-full md:justify-start justify-center items-end">
+              <div class="relative mr-4 md:w-full lg:w-full xl:w-1/2 w-2/4">
+                <input type="text" id="hero-field" name="hero-field"
+                  class="w-full bg-gray-100 rounded border bg-opacity-50 border-gray-300 focus:ring-2 focus:ring-indigo-200 focus:bg-transparent focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  placeholder="Enter your email here to subscribe to newsletter" />
+              </div>
+              <button
+                class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+            </div><br>
+            <div class="flex lg:flex-row md:flex-col">
+              <button
+                class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 512 512">
+                  <path
+                    d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z">
+                  </path>
+                </svg>
+                <span class="ml-4 flex items-start flex-col leading-none">
+                  <span class="text-xs text-gray-600 mb-1">GET IT ON</span>
+                  <span class="title-font font-medium">Google Play</span>
+                </span>
+              </button>
+              <button
+                class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center lg:ml-4 md:ml-0 ml-4 md:mt-4 mt-0 lg:mt-0 hover:bg-gray-200 focus:outline-none">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 305 305">
+                  <path
+                    d="M40.74 112.12c-25.79 44.74-9.4 112.65 19.12 153.82C74.09 286.52 88.5 305 108.24 305c.37 0 .74 0 1.13-.02 9.27-.37 15.97-3.23 22.45-5.99 7.27-3.1 14.8-6.3 26.6-6.3 11.22 0 18.39 3.1 25.31 6.1 6.83 2.95 13.87 6 24.26 5.81 22.23-.41 35.88-20.35 47.92-37.94a168.18 168.18 0 0021-43l.09-.28a2.5 2.5 0 00-1.33-3.06l-.18-.08c-3.92-1.6-38.26-16.84-38.62-58.36-.34-33.74 25.76-51.6 31-54.84l.24-.15a2.5 2.5 0 00.7-3.51c-18-26.37-45.62-30.34-56.73-30.82a50.04 50.04 0 00-4.95-.24c-13.06 0-25.56 4.93-35.61 8.9-6.94 2.73-12.93 5.09-17.06 5.09-4.64 0-10.67-2.4-17.65-5.16-9.33-3.7-19.9-7.9-31.1-7.9l-.79.01c-26.03.38-50.62 15.27-64.18 38.86z">
+                  </path>
+                  <path
+                    d="M212.1 0c-15.76.64-34.67 10.35-45.97 23.58-9.6 11.13-19 29.68-16.52 48.38a2.5 2.5 0 002.29 2.17c1.06.08 2.15.12 3.23.12 15.41 0 32.04-8.52 43.4-22.25 11.94-14.5 17.99-33.1 16.16-49.77A2.52 2.52 0 00212.1 0z">
+                  </path>
+                </svg>
+                <span class="ml-4 flex items-start flex-col leading-none">
+                  <span class="text-xs text-gray-600 mb-1">Download on the</span>
+                  <span class="title-font font-medium">App Store</span>
+                </span>
+              </button>
+            </div>
+          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img class="object-cover object-center rounded" alt="hero" src="assets/images/app.svg" />
+          </div>
+        </div>
+      </section>
+    </section>
+    <footer class="text-gray-600 body-font">
+      <div class="bg-gray-100">
+        <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col items-center justify-center sm:flex-row">
+          <p class="text-gray-900 text-base font-semibold text-center sm:text-center">Made with <span
+              class="text-red-600"><i class="fas fa-heart"></i></span> by Exun Clan</p>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/aos.js"></script>
+       <script>
+        AOS.init();
+      </script>
+  </body>
+
+  </html>
