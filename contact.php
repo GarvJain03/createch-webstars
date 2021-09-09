@@ -115,10 +115,7 @@ if(isset($_POST['submit'])) {
         class="max-w-screen-xl mt-8 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-8 mx-auto text-gray-900">
         <div class="flex flex-col justify-between">
           <div>
-            <h2 class="text-4xl lg:text-5xl font-bold leading-tight">Lets talk about everything!</h2>
-            <div class="text-gray-700 mt-8">
-              Hate forms? Send us an <span class="underline">email</span> instead.
-            </div>
+            <h2 class="text-4xl lg:text-5xl font-bold leading-tight">Contact Us</h2>
           </div>
           <div class="mt-8 text-center">
               <img src="assets/images/contact.svg" alt="image" class="w-full">
