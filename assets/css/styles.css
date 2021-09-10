@@ -624,6 +624,11 @@ body {
     letter-spacing: 2.3px;
 }
 
+.logo-header{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2.3px;
+}
+
 .login-signup-nav-btn:hover {
     background: #64fcd9;
     color: #000;
