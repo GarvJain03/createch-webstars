@@ -54,7 +54,7 @@ session_start();
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="checkbox" value="terms" id="termsCheckbox">
                         <label class="form-check-label">I agree to the terms and conditions and Annexure-A of
-                            spacewell</label>
+                            CorsTech</label>
                     </div>
                     <br><br>
                     <center><button class="btn btn-theme-secondary btn-block" id="rzp-button">Pay Now</button></center>
