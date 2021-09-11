@@ -20,4 +20,5 @@ We tried to build a web app as close to as we had planned out in the beginning b
 
 # Technologies Used
 Front End: HTML, CSS, TailWindCSS, Bootstrap, JS, jQuery
+<br/>
 Backend: CorePHP, MySQL (Database), AJAX
