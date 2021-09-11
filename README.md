@@ -19,5 +19,5 @@ We learned to implement different types of APIs and also to connect a new flow o
 We tried to build a web app as close to as we had planned out in the beginning but due to the time constraint that we had to prepare for our exam as well we were not able to include more features.
 
 # Technologies Used
-Front End: HTML, CSS, TailWindCSS, Bootstrap, JS, jQuery <br>
+Front End: HTML, CSS, TailWindCSS, Bootstrap, JS, jQuery
 Backend: CorePHP, MySQL (Database), AJAX
