@@ -58,7 +58,7 @@
                   <div class="flex flex-col w-full lg:w-1/2 justify-center items-start pt-12 pb-12 px-6" data-aos="slide-right">
                      <h1 class="font-bold text-5xl mb-2">CORSTECH.</h1>
                      <p class="uppercase tracking-loose mb-4 text-2xl"><i>"Where sky is not the limit"</i></p>
-                     <p class="leading-normal mb-4 text-left">CorsTech, a civil space agency built in the 1800s, is a global leader in the field of space exploration with a large number of workforces. We have a total of 38 centers located in some best places all over the world from where researchers can easily explore space and discover new things..</p>
+                     <p class="leading-normal mb-4 text-left">CorsTech, a civil space agency built in 1978, is a global leader in the field of space exploration with a large number of workforces. We have a total of 38 centers located in some best places all over the world from where researchers can easily explore space and discover new things..</p>
                      <div class="inline-block btn-row">
                         <a href="dashboard/login.php"> <span>Login</span> <span>Login</span> </a>
                         <a href="dashboard/login.php"> <span>Signup</span> <span>Signup</span> </a>
