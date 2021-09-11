@@ -1,4 +1,4 @@
-# How we built it
+## How we built it
 
 # Challenges we ran into
 
